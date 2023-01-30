@@ -17,7 +17,7 @@
             <nav class="site-nav">
             <a href="./index.html" class="logo"><span>Web</span>Studio</a>
                 <ul class="list nav-list">
-                    <li><a href="./index.html" class="nav-item">Studio</a></li>
+                    <li><a href="./index.html" class="nav-item current">Studio</a></li>
                     <li><a href="./portfolio.html" class="nav-item">Portfolio</a></li>
                     <li><a href="" class="nav-item">Contacts</a></li>
                 </ul>
@@ -233,32 +233,32 @@
                 <h2 class="customers-title">Customers</h2>
                 <ul class="list customers-list">
                     <li><a href="" class="company-item">
-                        <svg width="41" height="47">
+                        <svg>
                             <use href="./images/icons.svg#icon-company1"></use>
                         </svg>
                     </a></li>
                     <li><a href="" class="company-item">
-                        <svg width="40" height="52">
+                        <svg>
                             <use href="./images/icons.svg#icon-company2"></use>
                         </svg>
                     </a></li>
                     <li><a href="" class="company-item">
-                        <svg width="44" height="41">
+                        <svg>
                             <use href="./images/icons.svg#icon-company3"></use>
                         </svg>
                     </a></li>
                     <li><a href="" class="company-item">
-                        <svg width="84" height="41">
+                        <svg>
                             <use href="./images/icons.svg#icon-company4"></use>
                         </svg>
                     </a></li>
                     <li><a href="" class="company-item">
-                        <svg width="63" height="45">
+                        <svg>
                             <use href="./images/icons.svg#icon-company5"></use>
                         </svg>
                     </a></li>
                     <li><a href="" class="company-item">
-                        <svg width="94" height="44">
+                        <svg>
                             <use href="./images/icons.svg#icon-company6"></use>
                         </svg>
                     </a></li>
@@ -307,11 +307,13 @@
             </div>
         </div>    
     </footer>
-    <div class="backdrop" data-modal>
-        <div class="modal is-hidden">
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
             <div class="modal-wrap">
-                <button class="close-modal" id="close" data-modal-close>
-                    <img src="./images/close.svg" alt="Close" width="24" height="24">
+                <button class="close-modal" data-modal-close>
+                    <svg class="close-icon">
+                        <use href="./images/icons.svg#icon-closebtn"></use>
+                    </svg>
                 </button>
             </div>
         </div>    
