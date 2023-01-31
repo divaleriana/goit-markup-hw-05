@@ -311,6 +311,7 @@ img {
     letter-spacing: 0.02em; 
     text-transform: capitalize;
     margin-bottom: 8px;
+    color: var(--navy-blue-color);
 }
 
 .paragraph {
@@ -487,9 +488,13 @@ img {
     transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.img-overlay:hover::after {
+.link-overlay:hover .img-overlay::after {
     opacity: 1;
     transform: translateY(-300px);
+}
+
+.link-overlay {
+    text-decoration: none;
 }
 
 .footer{
